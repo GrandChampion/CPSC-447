@@ -85,6 +85,68 @@
     * 포함 표시(Containment Mark, Enclosure Mark, Nesting Mark): 개체들을 묶고 계층적으로 나타낼 수 있는 면적 표시(Area mark)
 
 ## 표(Table) 7단원
+* 표로 정리된 자료(Tabular data)를 배치(arrange)할수 있는 시각적 인코딩 방법 4가지
+    * Express value
+    * Separate region
+    * Order region
+    * Align region
+* 축의 배치(Spatial axes orientation)
+    * 직선의(Rectilinear)
+    * 평행의(Parallel)
+    * 방사상의(Radial)
+
+## Key와 Value
+* Key
+    * 개체(item)을 특정할 수 있다.
+    * Categorical하거나 Ordinal 할 수 있다.
+* Value
+    * key에 의존적인 속성이다.
+    * Categorical 또는 Ordinal 또는 Quantitative 할 수 있다.
+    * Level: Categorical 하거나 Ordinal 속성 중에서 unique한것을 level이라고 부른다.
+
+### 산포도(Scatter plot)
+* 가로(horizontal)하고 세로(vertical) 공간 위치 채널과 point 표시(0d mark)를 이용해서 2개의 양적 값(quantitative value) 변수를 인코딩한다.
+* 산포도를 이용하는 경우
+    * 트렌드를 찾을때
+    * outlier를 찾을때
+    * 분포(distribution)을 찾을때
+    * 상관 관계(correlation)를 찾을때
+    * 덩어리(cluster)를 찾을때
+* 수백개의 개체(item)까지 나타낼 수 있다.
+
+### Region
+* 서로 같은 데이터를 나타내는 영역
+* region을 분석 하는 3가지 방법
+    * Categorical 속성인 경우: 나누기(Seperation)
+    * 순서가 있는 속성인 경우: 정렬(alignment), 순서넣기(ordering)
+
+### 막대표(Bar chart)
+* 1개의 categorical key 속성과 1개의 양적 값(quantitative value) 속성을 갖는다.
+* 세로(vertical) 위치: 선분 표시(line mark)로 값 속성(value attribute)를 표현해 준다.
+* 가로(horizontal) 위치: Key 속성을 나누어 준다.
+* 막대표를 이용하는 경우
+    * 값을 찾아야 하는 경우
+    * 값을 비교해야 하는 경우
+* 수백개의 개체(item)까지 나타낼 수 있다. 하지만, 천개의 개체는 표현이 불가능 하다.
+
+### Stacked bar chart
+### Stream graph
+### Dot/Line chart
+### Indexed line chart
+### Gantt chart
+### Slope graph
+### Heat map
+### Cluster heat map
+### Radial bar chart
+### Star plot
+### Radar plot
+### Pie chart
+### Cox comb chart
+### Normalized stacked bar chart
+### Glyph map
+### SPLOM
+### Parallel coordinate
+
 
 
 ## Interactive View 11단원
