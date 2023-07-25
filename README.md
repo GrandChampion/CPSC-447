@@ -24,26 +24,27 @@
 * Data that have implicit order
 ### Type 2: Ordinal attribute
 * Size of cloth(Small, Medium, Large), Top 10 movie, Movie rating, Bank waitlist, Size of egg, Weight class in sports, ABCDF grading scheme
-* We cannot do numerical operation(addition, subtraction), but there exist order to compare relatively for this data.
+* We cannot do arithematic operation(addition, subtraction), but there exist order to compare relatively for this data.
 * There is no unit for this data.
 
 ### Type 3: Quantitative attribute
+* Example: Height(cm), weight(kg), temperature(°C), stock price, date, rotation of bus, number of thunder storm in 2021, number of teeth, Tire air pressure(psi), umemployment(%), length of yatch(ft)
+* We can do numerical comparison and arithematic operation(addition, subtraction)
+* There is unit for this data
 
-* 숫자적으로 비교와 연산(덧셈, 뺄셈)이 가능한 순서가 있는 데이터이다.
-* 구체적인 단위가 있다.
-* 예: 키(cm), 몸무게(kg), 온도(°C), 주가, 날짜, 버스가 회차하는 횟수(번), 태풍이 2021년도에 일어난 횟수(번), 이빨의 갯수(개), 타이어 공기압(psi), 실업률(%), 요트의 길이(미터), 사람의 평균 몸무게(kg), 뜨거운 물의 온도(°C)
+## Mark
+* Basic geometric element that describes item and link
+* Most basic visual element
+### Dimensions of Mark
+* We can classify mark based on spatial dimension
 
-## 표시 (Mark)
-* 아이템과 링크를 묘사하는 가장 기본적인 기하학 요소(element)이다.
-* 이미지에서 가장 기본적이 시각적 요소(element)이다.
-### 표시의 4가지 차원
-* 표시(mark)는 필요로 하는 공간적 차원에 따라 4가지로 분류 할수 있다.
-#### 0 차원 표시(0 dimensional mark): 점(point)
-#### 1 차원 표시(1 dimensional mark): 선분(line)
-#### 2 차원 표시(2 dimensional mark): 면적(area)
-#### 3 차원 표시(3 dimensional mark): 부피(volume)
 
-## 시각적 채널(Channel)
+#### 0 dimensional mark: point
+#### 1 dimensional mark: line
+#### 2 dimensional mark: area
+#### 3 dimensional mark: volume
+
+## Channel
 * 표시(Mark)들의 외형을 조정하는 방법을 시각적 채널이라고 한다.
 * 표시의 속성으로 정보를 나타내는 것을 시각적 채널이라고 한다.
 ### 다양한 시각적 채널
