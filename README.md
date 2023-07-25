@@ -125,14 +125,13 @@
     * If it is ordinal attribute: alignment, ordering
 
 ### Bar chart
-
-* 1개의 categorical key 속성과 1개의 양적 값(quantitative value) 속성을 갖는다.
-* 세로(vertical) 위치: 선분 표시(line mark)로 값 속성(value attribute)를 표현해 준다.
-* 가로(horizontal) 위치: Key 속성을 나누어 준다.
-* 막대표를 이용하는 경우
-    * 값을 찾아야 하는 경우
-    * 값을 비교해야 하는 경우
-* 수백개의 개체(item)까지 나타낼 수 있다. 하지만, 천개의 개체는 표현이 불가능 하다.
+* Bar chart have 1 categorical key attribute and 1 qquantitative value attribute
+* Vertical position: use line mark to encode value attribute
+* Horizontal position: seperate key attributes
+* Case we use bar chart
+    * When finding value
+    * When comparing value
+* It can represent hundreds of items but not thousand
 
 ### Stacked bar chart
 ### Stream graph
@@ -164,10 +163,10 @@
 
 
 
-## 지도 8단원
+## Map 8단원
 
 
 
-## 네트워크 9단원
+## Network 9단원
 
 ## Color 10단원
