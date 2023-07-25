@@ -45,66 +45,70 @@
 #### 3 dimensional mark: volume
 
 ## Channel
-* 표시(Mark)들의 외형을 조정하는 방법을 시각적 채널이라고 한다.
-* 표시의 속성으로 정보를 나타내는 것을 시각적 채널이라고 한다.
-### 다양한 시각적 채널
-#### 위치적 채널(Spatial position channel)
-* 가로의(Horizontal)
-* 세로의(Vertical)
+* Channel expresses information using attribute of mark
+* Channel is way to arrange marks
+
+### Various channels
+#### Spatial position channel
+* Horizontal
+* Vertical
 * Both
-#### 색상적 채널(Color channel)
-* 색깔의 이름(Hue)
-* 색깔(Hue)의 강도(Saturation)
-* 면적을 통과하는 빛의 양(Luminance)
-#### 크기적 채널(Size channel)
-* 1차원 표시(1d mark)인 경우: 길이(length)
-* 2차원 표시(2d mark)인 경우: 면적(area)
-* 3차원 표시(3d mark)인 경우: 부피(volume)
-#### 움직임적 채널(Motion-oriented channel)
-* 표시의 움직임의 방향(Direction of motion)
-* 속도(Velocity)
-#### 각도적 채널(Angle 또는 Tilt)
-#### 휜정도 채널(Curvature)
-#### 모양적 채널(Shape)
-* 예: 삼각형, 별, 선 등
-### 시각적 채널의 종류
-* 인간은 2가지 종류의 감각(sensory modality)를 가지고 있다.
-#### 존재(Identity) 채널
+#### Color channel
+* Hue(name of color)
+* Saturation(Intensity of hue(color))
+* Luminance(Amount of light penetrating the area)
+
+#### Size channel
+* case of 1d mark: length
+* case of 2d mark: area
+* case of 3d mark: volume
+#### Motion-oriented channel
+* Direction of motion
+* Velocity
+#### Angle or Tilt channel
+#### Curvature channel
+#### Shape channel
+* Example: triangle, star, line ...
+
+
+### Types of visual channel
+* Human have 2 types of sensory modality
+#### Identity channel
 * 어떤 표시(mark)가 어디에 있는지를 인지할 수 있다.
 * 예: 모양, Hue, 움직임
 
-#### 크기(Magnitude) 채널
+#### Magnitude channel
 * 얼마나 많은 양이 있는지 인지할 수 있다.
 예: 길이, 면적, 부피, 빛의 양(luminance), 각도, 색깔의 강도(saturation)
 
-### 표시(Mark)의 종류
-* 개체(Item, Node)를 상징하는 표시(Mark)
-    * 예: 점, 선, 면
-* 개체들의 연결을 상징하는 표시(Mark)
-    * 연결 표시(Connection Mark): 2개의 개체 사이의 관계를 나타내는 선분 형태의 표시 (line mark)
-    * 포함 표시(Containment Mark, Enclosure Mark, Nesting Mark): 개체들을 묶고 계층적으로 나타낼 수 있는 면적 표시(Area mark)
+### Types of mark
+* Mark representing entity(item, node)
+    * Example: point, line, area
+* Mark representing connection of entities
+    * Connection mark: a line mark that represents the relation between two entities
+    * Containment mark, Enclosure mark, Nesting mark: group marks and put hierarchy using area mark
 
-## 표(Table) 7단원
-* 표로 정리된 자료(Tabular data)를 배치(arrange)할수 있는 시각적 인코딩 방법 4가지
+## Table
+* Ways to encode tabular data
     * Express value
     * Separate region
     * Order region
     * Align region
-* 축의 배치(Spatial axes orientation)
-    * 직선의(Rectilinear)
-    * 평행의(Parallel)
-    * 방사상의(Radial)
+* Arrangement of spatial axes orientation
+    * Rectilinear
+    * Parallel
+    * Radial
 
-## Key와 Value
+## Key and Value
 * Key
-    * 개체(item)을 특정할 수 있다.
-    * Categorical하거나 Ordinal 할 수 있다.
+    * We can specify item(entity)
+    * Key can be categorical or ordinal attribute(data)
 * Value
-    * key에 의존적인 속성이다.
-    * Categorical 또는 Ordinal 또는 Quantitative 할 수 있다.
-    * Level: Categorical 하거나 Ordinal 속성 중에서 unique한것을 level이라고 부른다.
+    * Value is dependent attribute to key
+    * Value can be categorical or ordinal or quantitative attribute(data)
+    * Level: Unique ones among categorical or ordinal attribute
 
-### 산포도(Scatter plot)
+### Scatter plot
 * 가로(horizontal)하고 세로(vertical) 공간 위치 채널과 point 표시(0d mark)를 이용해서 2개의 양적 값(quantitative value) 변수를 인코딩한다.
 * 산포도를 이용하는 경우
     * 트렌드를 찾을때
