@@ -74,12 +74,12 @@
 ### Types of visual channel
 * Human have 2 types of sensory modality
 #### Identity channel
-* 어떤 표시(mark)가 어디에 있는지를 인지할 수 있다.
-* 예: 모양, Hue, 움직임
+* We can recognize which mark is used for which meaning
+* Example: Shape, Hue, Motion
 
 #### Magnitude channel
-* 얼마나 많은 양이 있는지 인지할 수 있다.
-예: 길이, 면적, 부피, 빛의 양(luminance), 각도, 색깔의 강도(saturation)
+* We can recognize how many of something exists
+* Example: Length, area, volume, luminance, angle, saturation
 
 ### Types of mark
 * Mark representing entity(item, node)
@@ -109,22 +109,23 @@
     * Level: Unique ones among categorical or ordinal attribute
 
 ### Scatter plot
-* 가로(horizontal)하고 세로(vertical) 공간 위치 채널과 point 표시(0d mark)를 이용해서 2개의 양적 값(quantitative value) 변수를 인코딩한다.
-* 산포도를 이용하는 경우
-    * 트렌드를 찾을때
-    * outlier를 찾을때
-    * 분포(distribution)을 찾을때
-    * 상관 관계(correlation)를 찾을때
-    * 덩어리(cluster)를 찾을때
-* 수백개의 개체(item)까지 나타낼 수 있다.
+* We encode 2 types of quantitative variables using horizontal and vertical spatical position channel and 0 dimensional point mark
+* It can represent upto hundred items
+* Case we use scatter plot
+    * When finding trend
+    * When finding outlier
+    * When finding Distribution
+    * When finding correlation
+    * When finding cluster
 
 ### Region
-* 서로 같은 데이터를 나타내는 영역
-* region을 분석 하는 3가지 방법
-    * Categorical 속성인 경우: 나누기(Seperation)
-    * 순서가 있는 속성인 경우: 정렬(alignment), 순서넣기(ordering)
+* Area representing the same data
+* 3 ways to analyze region
+    * If it is categorical attribute: Seperation
+    * If it is ordinal attribute: alignment, ordering
 
-### 막대표(Bar chart)
+### Bar chart
+
 * 1개의 categorical key 속성과 1개의 양적 값(quantitative value) 속성을 갖는다.
 * 세로(vertical) 위치: 선분 표시(line mark)로 값 속성(value attribute)를 표현해 준다.
 * 가로(horizontal) 위치: Key 속성을 나누어 준다.
