@@ -133,23 +133,6 @@
     * When comparing value
 * It can represent hundreds of items but not thousand
 
-### Stacked bar chart
-### Stream graph
-### Dot/Line chart
-### Indexed line chart
-### Gantt chart
-### Slope graph
-### Heat map
-### Cluster heat map
-### Radial bar chart
-### Star plot
-### Radar plot
-### Pie chart
-### Cox comb chart
-### Normalized stacked bar chart
-### Glyph map
-### SPLOM
-### Parallel coordinate
 
 
 
