@@ -134,8 +134,6 @@
 * It can represent hundreds of items but not thousand
 
 
-
-
 ## Interactive View 11단원
 
 
