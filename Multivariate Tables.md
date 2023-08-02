@@ -73,3 +73,36 @@
 ## Cluster heatmap
 * Derived data: 2 cluster hierarchies
 * Dendogram
+
+## Radial bar chart
+Mark: line
+Channel: length, angle representing value
+
+## Star plot
+Mark: line
+
+## Radar plot (Radial line chart)
+* Mark: point, connecting line
+* Only use when the data is cyclic
+
+## Pie chart
+* Area is very less accurate
+* Only use when there is only two levels or for part to whole task
+
+## Coxcomb chart
+* Mark: line
+* Channel: length of line
+* Data: 1 categorical (key) attribute, 1 quantitative (value) attribute
+
+## Normalized bar chart
+* Usage: part to whole judgement
+
+
+## Glyphmap
+* Radial display is good for cyclic pattern
+
+## Scatterplot matrix (SPLOM)
+* Mark: point
+
+## Parallel coordinate
+* Mark: parallel axes, line for each item

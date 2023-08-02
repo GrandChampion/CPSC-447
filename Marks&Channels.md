@@ -1,18 +1,73 @@
 ## Mark
-* Basic geometric element that describes item and link
-* Most basic visual element
-### Dimensions of Mark
-* We can classify mark based on spatial dimension
+* Most basic geometric element that describes <u>item and link</u>
+* Geometric primitive
 
+### Mark for item
+* point(0 dimension)
+    * no constraint, so it can be any size and any shape
+* line(1 dimension)
+    * 1 constraint on length of line(line length have limit)
+* area(2 dimension)
+    * 2 constraints on size(length, width) and shape
+* volume(3 dimension)
 
-#### 0 dimensional mark: point
-#### 1 dimensional mark: line
-#### 2 dimensional mark: area
-#### 3 dimensional mark: volume
+### Mark for link
+* Connection: a line mark that represents the relation between two entities
+* Containment: a group mark that represent a group, group can be nested and make hierarchy
+
 
 ## Channel
-* Channel expresses information using attribute of mark
-* Channel is way to arrange marks
+* way to change mark based on attribute
+* control the appearance of mark
+
+### When to use which channel
+
+|Factor|Meaning|
+|------|-------|
+|Expressiveness|select channel type that match attribute type|
+|Effectiveness|some channels are better than others|
+
+
+### 2 types of channel in Expressiveness
+
+1. Magnitude channel
+    * Usage: suitable for encoding *ordered attribute*
+    * We can recognize how many of something exists
+    * Example: length, area, volume, luminance, angle, saturation
+1. Identity channel
+    * Usage: suitable for encoding *categorical attribute*
+    * Example: region, shape, hue, motion
+
+### Channel ranking in Effectiveness
+* How accurately we can decode the data.
+
+![Effectiveness](./image/Effectiveness.png)
+
+### Grouping
+* Proximity: psychological tendency to group object that are placed together. For example, in a scatter plot, we naturally group points that are close together into a cluster.
+* Similarity: psychological tendency to group marks that are similar. For example, In a bar chart, we naturally group similiar length bars.
+
+### Effectiveness of channel
+1. Accuracy: how precisely can we tell the difference between encoded items
+    * Factor affecting accuracy
+        1. alignment
+        1. distractor
+        1. distance
+        1. common scale
+    * Steven's psychophysical power law
+        $$
+        Sensation=Intensity^{n} \newline
+        $$
+
+1. Discriminability: if you encode data using a par- ticular visual channel, are the differences between items percepti- ble to the human as intended?
+1. Separability: How well our psychology separate two different channels
+1. Popout: How well visual element captures viewer's attention. e.g., Using red color for point in the scatter plot draw immediate attention of viewer
+
+### Weber's law
+The more different things are, it is easier for viewer to notice.
+
+---
+# Adapt this part
 
 ### Various channels
 #### Spatial position channel
@@ -37,64 +92,3 @@
 * Example: triangle, star, line ...
 
 
-### Types of visual channel
-* Human have 2 types of sensory modality
-#### Identity channel
-* We can recognize which mark is used for which meaning
-* Example: Shape, Hue, Motion
-
-#### Magnitude channel
-* We can recognize how many of something exists
-* Example: Length, area, volume, luminance, angle, saturation
-
-### Types of mark
-* Mark representing entity(item, node)
-    * Example: point, line, area
-* Mark representing connection of entities
-    * Connection mark: a line mark that represents the relation between two entities
-    * Containment mark, Enclosure mark, Nesting mark: group marks and put hierarchy using area mark
-
-## Table
-* Ways to encode tabular data
-    * Express value
-    * Separate region
-    * Order region
-    * Align region
-* Arrangement of spatial axes orientation
-    * Rectilinear
-    * Parallel
-    * Radial
-
-## Key and Value
-* Key
-    * We can specify item(entity)
-    * Key can be categorical or ordinal attribute(data)
-* Value
-    * Value is dependent attribute to key
-    * Value can be categorical or ordinal or quantitative attribute(data)
-    * Level: Unique ones among categorical or ordinal attribute
-
-### Scatter plot
-* We encode 2 types of quantitative variables using horizontal and vertical spatical position channel and 0 dimensional point mark
-* It can represent upto hundred items
-* Case we use scatter plot
-    * When finding trend
-    * When finding outlier
-    * When finding Distribution
-    * When finding correlation
-    * When finding cluster
-
-### Region
-* Area representing the same data
-* 3 ways to analyze region
-    * If it is categorical attribute: Seperation
-    * If it is ordinal attribute: alignment, ordering
-
-### Bar chart
-* Bar chart have 1 categorical key attribute and 1 qquantitative value attribute
-* Vertical position: use line mark to encode value attribute
-* Horizontal position: seperate key attributes
-* Case we use bar chart
-    * When finding value
-    * When comparing value
-* It can represent hundreds of items but not thousand
