@@ -1,4 +1,6 @@
-## YouTube
+## [YouTube]()
+
+
 * Intro (Ch 1), 15:39
 * Nested Model (Ch 4) I, 9:06
 * Data Abstraction (Ch 2), 27:34
