@@ -1,4 +1,4 @@
-## [YouTube]()
+## [YouTube](https://youtube.com/playlist?list=PLT4XLHmqHJBfKoeHlmgQYP9c_KMj_dR1I)
 
 
 * Intro (Ch 1), 15:39
@@ -24,3 +24,5 @@
 * Networks (Ch 9) I, 30:50
 * Rules of Thumb (Ch 6), 31:42
 * Wrapup, 1:42
+
+
