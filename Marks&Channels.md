@@ -58,6 +58,8 @@
         $$
         Sensation=Intensity^{n} \newline
         $$
+    ![Steven's psychophysical power law](./image/Steven%20law.png)
+
 
 1. Discriminability: if you encode data using a par- ticular visual channel, are the differences between items percepti- ble to the human as intended?
 1. Separability: How well our psychology separate two different channels
