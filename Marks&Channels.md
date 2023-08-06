@@ -1,8 +1,8 @@
-## Mark
+# Mark
 * Most basic geometric element that describes <u>item and link</u>
 * Geometric primitive
 
-### Mark for item
+## Mark for item
 * point(0 dimension)
     * no constraint, so it can be any size and any shape
 * line(1 dimension)
@@ -11,16 +11,16 @@
     * 2 constraints on size(length, width) and shape
 * volume(3 dimension)
 
-### Mark for link
+## Mark for link
 * Connection: a line mark that represents the relation between two entities
 * Containment: a group mark that represent a group, group can be nested and make hierarchy
 
 
-## Channel
+# Channel
 * way to change mark based on attribute
 * control the appearance of mark
 
-### When to use which channel
+## When to use which channel
 
 |Factor|Meaning|
 |------|-------|
@@ -28,7 +28,7 @@
 |Effectiveness|some channels are better than others|
 
 
-### 2 types of channel in Expressiveness
+## 2 types of channel in Expressiveness
 
 1. Magnitude channel
     * Usage: suitable for encoding *ordered attribute*
@@ -38,16 +38,16 @@
     * Usage: suitable for encoding *categorical attribute*
     * Example: region, shape, hue, motion
 
-### Channel ranking in Effectiveness
+## Channel ranking in Effectiveness
 * How accurately we can decode the data.
 
 ![Effectiveness](./image/Effectiveness.png)
 
-### Grouping
+## Grouping
 * Proximity: psychological tendency to group object that are placed together. For example, in a scatter plot, we naturally group points that are close together into a cluster.
 * Similarity: psychological tendency to group marks that are similar. For example, In a bar chart, we naturally group similiar length bars.
 
-### Effectiveness of channel
+## Effectiveness of channel
 1. Accuracy: how precisely can we tell the difference between encoded items
     * Factor affecting accuracy
         1. alignment
@@ -65,7 +65,7 @@
 1. Separability: How well our psychology separate two different channels
 1. Popout: How well visual element captures viewer's attention. e.g., Using red color for point in the scatter plot draw immediate attention of viewer
 
-### Weber's law
+## Weber's law
 The more different things are, it is easier for viewer to notice.
 
 ---
