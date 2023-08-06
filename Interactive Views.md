@@ -84,3 +84,60 @@
 * Control of visualization can take too much area on the screen
 * Invisible functionality can be hard to discover. (usually for a person using the view for the first time)
 * User may not interact with the computer as designer intended
+
+# Multiple view
+## Type
+* Juxtapose: placing multiple data representations side by side for the purpose of comparison or constrast
+* Partition: dividing a dataset into partitions
+* Superimpose: placing one set of visual element on another set of visual element
+
+## Juxtapose
+### Factors to consider
+* Visual encoding of two views(same or different)
+* How data is shared between views
+* control of two views (Example: share navigation)
+
+### Linked highlighting between views
+* If user selects one region in one view, it highlights region on another view
+* each view shares the same items
+* each view have different attibute of items
+
+#### Directionality of linking views
+* Unidirectional linking: User can control only one view, and another view follows. However, there is no control in another view.
+* Bidirectional linking: User can control both views and they interact one another.
+    * bidirectional linking is more useful than unidirectional linking
+
+### Overview detail view
+* Visual encoding can be the same or different. (Example: bird eye view has the same map as original map)
+* 2nd view has the subset of data from the 1st view
+* It is bidirectional linking
+
+### Overview detail naviation
+* Data of 2nd view is subset of 1st view
+* Unidirectional linking
+* selecting in small view changes extent in the large view
+
+### Tooltip
+* popup information message box when hovered over or clicked
+* it provides additional detail
+    * it does not provide data in original view. it is a new information.
+
+### Small multiples
+* All views use the same visual encoding
+* No data are shared on views
+
+### Tradeoffs of using Juxtapose view
+* Drawback(cost): Adding view takes area in the screen
+* Benefit: Moving eyes between two views is takes low cognitive load, because single changing view needs human to memorize the previous state.
+
+### Design choice
+![View design choice](/image/View%20design%20choice.png)
+* If encoding and the data is identical over views, we don't need multiple views.
+* If visual encoding is different in views and none of data is shared, then we can't make multiple views.
+
+### Reorderable list
+* list that is linked to other views
+* it makes easy to lookup data
+
+## Partitioning
+* It is important to decide the method to separate data in parts between views.
