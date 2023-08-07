@@ -140,4 +140,22 @@
 * it makes easy to lookup data
 
 ## Partitioning
-* It is important to decide the method to separate data in parts between views
+* Ways to divide data into views
+    * separate by attributes
+    * visual encoding between items that are close spatially (spatial proximity)
+    * Order of partitioning is important
+
+* Type
+    * Grouped bars
+    * Small multiple bar charts
+    * Recursive subdivision: partition recursively
+
+## Superimpose
+* layer: set of view or windows in the screen
+* superimpose: placing layer on top of another
+* type
+    * static visual layering
+    * dynamic visual layering
+* Drawback
+    * if we put hundreds of things on top of each other, it is difficult to see.
+### Trellisplots: superimposing years of data within the same frame
