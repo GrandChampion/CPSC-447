@@ -18,8 +18,8 @@
 * Color (Ch 10) I, 18:55
 * Color (Ch 10) II, 6:00
 * Color (Ch 10) III, 17:42
---- 오늘
 * Reduce: Aggregation & Filtering (Ch 13), 24:40
+--- 오늘
 * Networks (Ch 9) I, 30:50
 * Rules of Thumb (Ch 6), 31:42
 ---
