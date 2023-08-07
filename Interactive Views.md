@@ -140,4 +140,4 @@
 * it makes easy to lookup data
 
 ## Partitioning
-* It is important to decide the method to separate data in parts between views.
+* It is important to decide the method to separate data in parts between views
