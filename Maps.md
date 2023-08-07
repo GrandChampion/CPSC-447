@@ -37,7 +37,7 @@
     * position: geometry
     * color: sequential segmented colormap
 * It is recommended to use for regions that are similar size
-* Advantage
+* Benefit
     * Easy to understand
     * data is collected based on geographical region
 * Drawback
@@ -46,7 +46,7 @@
 
 ### Symbol map
 * symbol is used to represent mark or glyph
-* Advantage
+* Benefit
     * intuitive to understand
     * symbol can be emphasized based on attribute, not the size of region.
 * Drawback

@@ -8,7 +8,7 @@
 ### Changing parameters
 * add widget(slider, button, radio button, checkbox, dropdown)
 * effect: if we have widget, what will happen if we click button is obvious for user.
-* disadvantage: use screen space (higher information density)
+* Drawback: use screen space (higher information density)
 
 ### Changing order of data
 * applied on: table
@@ -70,8 +70,8 @@
 
 ### Scrollytelling
 * navigating page by scrolling down
-* advantage: Intuitive and very interactive
-* disadvantage: If user is in full screen mode, it is hard to see how far is left until the end of the page
+* Benefit: Intuitive and very interactive
+* Drawback: If user is in full screen mode, it is hard to see how far is left until the end of the page
 
 # Benefit of interaction with computer
 * ability to interact with visual representation and modify data. This is impossible in paper-based visualization.

@@ -15,8 +15,8 @@
 
 * Interactive Views (Ch 11), 25:39
 * Multiple Views (Ch 12), 29:28
---- 오늘
 * Geographic Maps (Ch 8), 14:18
+--- 오늘
 * Color (Ch 10) I, 18:55
 * Color (Ch 10) II, 6:00
 * Color (Ch 10) III, 17:42
