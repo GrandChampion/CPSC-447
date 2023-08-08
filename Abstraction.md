@@ -1,3 +1,6 @@
+# Attribute
+* It is also called dimension in many research papers
+
 # 3 types of attributes
 ## Categoriacal attribute
 ### Type 1: Categorical attribute
