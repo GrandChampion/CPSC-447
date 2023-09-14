@@ -1,19 +1,23 @@
-# Link
+# CPSC 447
+
+## Link
 
 - [Website](https://www.students.cs.ubc.ca/~cs-447/23Sep/)
 - [Canvas](https://canvas.ubc.ca/courses/123454)
 - [Gradescope](https://www.gradescope.ca/courses/11939)
 - [iClicker](https://student.iclicker.com/#/login)
 
-# Grading scheme
+## Grading scheme
 
-## Individual assignment
+### Individual assignment **(60%)**
 
-- Final exam (focus on foundation)
+- Final exam (focus on foundation) **(17%)**
   - Preparation: f1, f2, f3, MT2020, MT2021, MT2022, course concept
-- Foundation assignment: f1, f2, f3
-- Programming assignment: P0, P1, P2
-- D3 tutorial quiz: 1, 2, 3, 4, 5, 6, 7
+- Foundation assignment **(12%)**: f1 **(4%)**, f2 **(4%)**, f3 **(4%)**
+- Programming assignment **(18%)**: P0 **(4%)**, P1 **(8%)**, P2 **(6%)**
+- D3 tutorial quiz **(7%)**: 1 **(1%)**, 2 **(1%)**, 3 **(1%)**, 4 **(1%)**, 5
+  **(1%)**, 6 **(1%)**, 7 **(1%)**
+- Participation **(6%)**
 
 | Assignment         | Due date         |
 | ------------------ | ---------------- |
@@ -32,20 +36,26 @@
 | Programming 2      | November 8 6PM   |
 | Final exam         | TBD              |
 
-## Group assignment
+### Group assignment **(40%)**
 
-| Assignment                       | Due date        |
-| -------------------------------- | --------------- |
-| Project milestone 1              | October 4 6PM   |
-| Project milestone 1 peer grading | October 5 6PM   |
-| Project milestone 2              | October 25 6PM  |
-| Project milestone 2 peer grading | October 26 6PM  |
-| Project milestone 3              | November 22 6PM |
-| Project milestone 3 peer grading | November 23 6PM |
-| Project milestone 4              | December 6 6PM  |
-| Project milestone 4 peer grading | December 7 6PM  |
+Final Project: 40% Project Milestone 0: Teams. 1% (0.4% of total) Project
+Milestone 1: Abstractions. 15% (6% of total) Project Milestone 2: Design. 15%
+(6% of total) Project Milestone 3: Work In Progress. 9% (3.6% of total) Project
+Milestone 4: Final. 60% (24% of total)
 
-# Course concept
+| Assignment                                      | Due date         |
+| ----------------------------------------------- | ---------------- |
+| Project milestone 0 (Team formation) **(0.4%)** | September 27 6PM |
+| Project milestone 1 **(6%)**                    | October 4 6PM    |
+| Project milestone 1 peer grading                | October 5 6PM    |
+| Project milestone 2 **(6%)**                    | October 25 6PM   |
+| Project milestone 2 peer grading                | October 26 6PM   |
+| Project milestone 3 **(3.6%)**                  | November 22 6PM  |
+| Project milestone 3 peer grading                | November 23 6PM  |
+| Project milestone 4 **(24%)**                   | December 6 6PM   |
+| Project milestone 4 peer grading                | December 7 6PM   |
+
+## Course concept
 
 1. [Nested model](/Nested%20model.md)
 1. [Abstraction](/Abstraction.md)
