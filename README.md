@@ -1,11 +1,15 @@
 # CPSC 447
 
+## Time
+- Lecture:
+- Office hour
+
 ## Link
 
 - [Website](https://www.students.cs.ubc.ca/~cs-447/23Sep/)
 - [Canvas](https://canvas.ubc.ca/courses/123454)
 - [Gradescope](https://www.gradescope.ca/courses/11939)
-- [iClicker](https://student.iclicker.com/#/login)
+- [iClicker](https://student.iclicker.com/#/courses/2f68f135-afe0-4164-9277-a8ae70c365ce/tab/default)
 
 ## Grading scheme
 
