@@ -9,7 +9,7 @@
 | ---------------- | ------------------------------------ | ------------------------------------------------------------------------------ |
 | Francis          | Monday 2PM-3PM, Wednesday 10AM-11AM  | [Zoom](https://ubc.zoom.us/j/67501199514?pwd=SDdIRjlmYTFVaG1JOGJyM1JzL3d3Zz09) |
 | Ryan             | Tuesday 11AM-12PM, Thursday 12PM-1PM | [Zoom](https://ubc.zoom.us/j/67501199514?pwd=SDdIRjlmYTFVaG1JOGJyM1JzL3d3Zz09) |
-| Tamara Munzner   | 2PM-3PM                              | [Zoom](https://ubc.zoom.us/j/68491665483?pwd=ZlNPL282dndQZGQzYk9Tcyt3YUdiUT09) |
+| Tamara Munzner   | Friday 2PM-3PM                              | [Zoom](https://ubc.zoom.us/j/68491665483?pwd=ZlNPL282dndQZGQzYk9Tcyt3YUdiUT09) |
 
 ## Link
 
