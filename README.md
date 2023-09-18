@@ -22,7 +22,7 @@
 
 ### Individual assignment **(60%)**
 
-- Final exam (focus on foundation) **(17%)**
+- Final exam (focus on foundation and class exercise) **(17%)**
   - Preparation: f1, f2, f3, MT2020, MT2021, MT2022, course concept
 - Foundation assignment **(12%)**: f1 **(4%)**, f2 **(4%)**, f3 **(4%)**
 - Programming assignment **(18%)**: P0 **(4%)**, P1 **(8%)**, P2 **(6%)**
