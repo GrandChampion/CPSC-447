@@ -161,3 +161,27 @@
         * finding path
 * task specific to spatial data
     * understanding shape(Example: In 3D medical image, comparing tumor to bone.)
+
+
+## Range (Quantitative)
+* min and max value for quantitative attribute.
+* e.g, [0,100], [Jan-03-2023,Dec-01-2023]
+
+## Cardinarlity (categorical)
+* Unique number of items for categorical attribute.
+
+* Example (rows)
+[true, 1, 1.0]
+[false, 2, 2.5]
+['apple',1,2.2]
+    * true/false: cardinality is 2
+
+## Discrepancy
+* value assigned to cell, which is not in cardinality.
+    * Example
+      * [false, 2, 2.5]
+        ['apple',1,2.2]
+    
+* solution
+  * delete
+  * edit: mispelled country name
