@@ -185,3 +185,24 @@
 * solution
   * delete
   * edit: mispelled country name
+
+
+## Item
+* number of rows
+* each item is row
+
+
+## Anomaly == discepency
+
+## Field == Attribute == Identifier
+* columns in table
+
+## Domain language
+* word specific to certain area
+
+
+domain language task: Find minimum and maximum score in NBA.
+
+## abstract task
+* pg 45 in textbook
+![Abstract task](/image/Abstract%20task.png)
