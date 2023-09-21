@@ -9,7 +9,8 @@
 | ---------------- | ------------------------------------ | ------------------------------------------------------------------------------ |
 | Francis          | Monday 2PM-3PM, Wednesday 10AM-11AM  | [Zoom](https://ubc.zoom.us/j/61006768108?pwd=ck9od0l5ZVFmYlAvUFVhcDlSWHdyZz09) |
 | Ryan             | Tuesday 11AM-12PM, Thursday 12PM-1PM | [Zoom](https://ubc.zoom.us/j/61006768108?pwd=ck9od0l5ZVFmYlAvUFVhcDlSWHdyZz09) |
-| Tamara Munzner   | Friday 2PM-3PM                              | [Zoom](https://ubc.zoom.us/j/68491665483?pwd=ZlNPL282dndQZGQzYk9Tcyt3YUdiUT09) |
+| Tamara Munzner   | Friday 2PM-3PM                       | [Zoom](https://ubc.zoom.us/j/68491665483?pwd=ZlNPL282dndQZGQzYk9Tcyt3YUdiUT09) |
+[Queue](https://queue.students.cs.ubc.ca/course/26)
 
 ## Link
 
@@ -17,6 +18,7 @@
 - [Canvas](https://canvas.ubc.ca/courses/123454)
 - [Gradescope](https://www.gradescope.ca/courses/11939)
 - [iClicker](https://student.iclicker.com/#/courses/2f68f135-afe0-4164-9277-a8ae70c365ce/tab/default)
+- [piazza](https://piazza.com/class/lm6wxwo7yn91ly/)
 
 ## Grading scheme
 
