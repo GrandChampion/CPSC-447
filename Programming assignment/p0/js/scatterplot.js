@@ -31,10 +31,10 @@ class Scatterplot {
       .enter()
       .append('line')
       .attr('x1', accuracy => {
-        return axisStartPosition(accuracy);
+        return 5 + axisStartPosition(accuracy);
       })
       .attr('x2', accuracy => {
-        return axisStartPosition(accuracy);
+        return axisStartPosition(accuracy) + 5;
       })
       .attr('y1', 0)
       .attr('y2', 250)
@@ -46,7 +46,7 @@ class Scatterplot {
       .enter()
       .append('text')
       .attr('class', 'trial-label-left')
-      .attr('x', -10) // Adjusted the x position to the left
+      .attr('x', 10) // Adjusted the x position to the left
       .attr('y', trial => trial * 50)
       .text(trial => "Trial " + trial);
 
@@ -56,16 +56,29 @@ class Scatterplot {
     let averageOfTrial3 = getSumOfAccuracy(separateTrial(data1)[2]);
     let averageOfTrial4 = getSumOfAccuracy(separateTrial(data1)[3]);
 
+    // write text at next to first circle row
+    background.append('text')
+      .attr('x', 450) // Adjusted the x position to the right
+      .attr('y', 50)
+      .text(averageOfTrial1);
 
-    // Labels on the right side of each circle row
-    background.selectAll('.trial-label-right')
-      .data([averageOfTrial1, averageOfTrial2, averageOfTrial3, averageOfTrial4])
-      .enter()
-      .append('text')
-      .attr('class', 'trial-label-right')
-      .attr('x', 470) // Adjusted the x position to the right
-      .attr('y', trial => trial * 100)
-      .text(trial => trial);
+    // write text at next to first circle row
+    background.append('text')
+      .attr('x', 450) // Adjusted the x position to the right
+      .attr('y', 120)
+      .text(averageOfTrial2);
+
+    // write text at next to first circle row
+    background.append('text')
+      .attr('x', 450) // Adjusted the x position to the right
+      .attr('y', 180)
+      .text(averageOfTrial3);
+
+    // write text at next to first circle row
+    background.append('text')
+      .attr('x', 450) // Adjusted the x position to the right
+      .attr('y', 230)
+      .text(averageOfTrial4);
 
     // Other labels (Accuracy, Trial/Accuracy Scatterplot, Mean accuracy per trial)
     background.append('text')
@@ -75,12 +88,12 @@ class Scatterplot {
 
     background.append('text')
       .attr('x', 0)
-      .attr('y', 10)
+      .attr('y', 20)
       .text('Trial/Accuracy Scatterplot');
 
     background.append('text')
       .attr('x', 300)
-      .attr('y', 10)
+      .attr('y', 20)
       .text('Mean accuracy per trial');
 
 
