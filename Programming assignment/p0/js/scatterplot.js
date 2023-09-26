@@ -1,3 +1,6 @@
+// initVis()
+// rederVIs()
+
 class Scatterplot {
   constructor(data1) {
     const background = d3.select('#vis')
@@ -96,6 +99,9 @@ class Scatterplot {
       .attr('y', 20)
       .text('Mean accuracy per trial');
 
+
+      // make generic function
+      // can be more than 4 trials
 
     function separateTrial(myData) {
       let trial1 = [];
