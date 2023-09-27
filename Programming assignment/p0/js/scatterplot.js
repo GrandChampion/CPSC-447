@@ -55,7 +55,7 @@ class Scatterplot {
       .text(trial => "Trial " + trial);
 
     // add text based non yScale and the value is averageAccuracy(Trial)
-    this.trialLabels = this.svg.selectAll('.trial-label-right')
+    this.averageAccuracy = this.svg.selectAll('.trial-label-right')
       .data(this.trials)
       .enter()
       .append('text')
