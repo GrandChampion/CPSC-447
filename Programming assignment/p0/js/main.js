@@ -7,7 +7,5 @@ d3.csv('data/experiment_data.csv')
       row.trial = +row.trial
       row.accuracy = +row.accuracy
     })
-
     const scatterplot = new Scatterplot(csvData)
-    // scatterplot.updateVis()
   }).catch(e => { console.log(e) })
