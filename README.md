@@ -19,6 +19,7 @@
 - [Gradescope](https://www.gradescope.ca/courses/11939)
 - [iClicker](https://student.iclicker.com/#/courses/2f68f135-afe0-4164-9277-a8ae70c365ce/tab/default)
 - [piazza](https://piazza.com/class/lm6wxwo7yn91ly/)
+- [Tutorial](https://github.com/UBC-InfoVis/447-materials/tree/23Sep/tutorials)
 
 ## Grading scheme
 
