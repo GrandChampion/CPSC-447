@@ -12,7 +12,6 @@ class Scatterplot {
     this.trials = Array.from(new Set(this.csvData.map(row => row.trial))).sort()
 
     this.initVis()
-
   }
 
   initVis() {
@@ -146,7 +145,6 @@ class Scatterplot {
       .attr('fill-opacity', 0.5)
   }
 
-
   // API
   // Input: trial number
   // Output: average accuracy of that trial
@@ -157,5 +155,4 @@ class Scatterplot {
     trialData.forEach(row => sum += row.accuracy)
     return d3.format(".2f")(sum / trialData.length)
   }
-
 }
