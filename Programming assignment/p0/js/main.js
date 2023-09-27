@@ -2,10 +2,12 @@
  * Load data from CSV file asynchronously and visualize it
  */
 d3.csv('data/experiment_data.csv')
-  .then(data => {
+  .then(csvData => {
+    csvData.forEach(row => {
+      row.trial = +row.trial
+      row.accuracy = +row.accuracy
+    })
 
-    // Todo: Preprocess data and show chart
-    console.log(data)
-    const scatterplot = new Scatterplot(data)
-  })
-  .catch(error => console.error(error));
+    const scatterplot = new Scatterplot(csvData)
+    // scatterplot.updateVis()
+  }).catch(e => { console.log(e) })
