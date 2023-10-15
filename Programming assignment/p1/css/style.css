@@ -1,0 +1,82 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    padding: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Castoro', serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+/* Added css starts here!!! */
+.legend-circle {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.legend-group {
+    width: 280px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.winter-storm-legend {
+    font-size: 10px;
+    background-color: #ccc;
+}
+
+.drought-legend {
+    background-color: #ffffd9;
+}
+
+.flooding-legend {
+    background-color: #41b6c4;
+}
+
+.tropical-cyclone-legend {
+    background-color: #081d58;
+}
+
+.severe-storm-legend {
+    background-color: #c7e9b4;
+}
+
+.freeze-legend {
+    background-color: #cccccc;
+}
+
+#winter-storm-legend {
+    font-size: 10px;
+    opacity: 1.0;
+}
+
+#drought-legend {
+    font-size: 10px;
+    opacity: 1.0;
+}
+
+#flooding-legend {
+    font-size: 10px;
+    opacity: 1.0;
+}
+
+#tropical-cyclone-legend {
+    font-size: 10px;
+    opacity: 1.0;
+}
+
+#severe-storm-legend {
+    font-size: 10px;
+    opacity: 1.0;
+}
+
