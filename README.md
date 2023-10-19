@@ -48,7 +48,7 @@
 | Foundataion 3      | October 19 6PM   |
 | D3 tutorial quiz 7 | October 23 6PM   |
 | Programming 2      | November 8 6PM   |
-| Final exam         | TBD              |
+| Final exam         | December 14 3:30 PM              |
 
 ### Group assignment **(40%)**
 
