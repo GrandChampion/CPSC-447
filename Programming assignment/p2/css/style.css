@@ -1,0 +1,75 @@
+.example-arrow-class {
+    /*
+     * The marker-end attribute changes the style of the class to have the
+     * corresponding style. By changing the class on the svg object and assigning
+     * each marker-end to a different class, you'll be able to change the arrow
+     * styles accordingly.
+     */
+    marker-end: url(#arrow-head);
+    marker-end: url(#arrow-head-hovered);
+    marker-end: url(#arrow-head-highlighted);
+    marker-end: url(#arrow-head-highlighted-selected);
+}
+
+
+/* Body of html */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.below-view {
+    display: flex;
+}
+
+#lexischart {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 1000px;
+}
+
+#barchart {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar:hover {
+    stroke: black;
+    stroke-width: 4px;
+}
+
+#scatterplot {
+    margin-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 8px;
+    min-width: 160px;
+    color: #333;
+}
+
+.tooltip-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#tooltip ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
