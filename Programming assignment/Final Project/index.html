@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>D3 Project Starter Template</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="tooltip"></div>
+    <div id="tooltipY"></div>
+
+    <main>
+        <h1 id="grand-title" class="box">An Investigation into Software Engineering Incomes</h1>
+        <div class="section">
+            <p id="description" class="box">
+                Software engineers' salaries are hard to understand because they can vary depending on where they work,
+                how much experience they have, and how their company pays them. There are other factors that affect
+                salaries too, like if the engineer is a man or a woman and how expensive it is to live where they work.
+                We made a tool to help people compare salaries across tech companies in the United States. This tool can
+                help people understand how living expenses affect salaries and can also help them negotiate their
+                salaries.
+            </p>
+            <div id="beeswarm" class="box"></div>
+        </div>
+        <div class="section">
+            <div id="grouped-bar-chart" class="box"></div>
+            <div id="usa-map" class="box"></div>
+        </div>
+
+        <div class="section">
+            <div id="treemap" class="box"></div>
+            <div id="packed-circles-container" class="box">
+                <div id="packed-circles-vis-container">
+                    <text id="packed-circle-vis-title">Distribution of Gender Ratios Based on Companies</text><br><br>
+                    <select id="companies-selector">
+                        <option value="all">All</option>
+                        <option value="ten"> >= $100,000 </option>
+                        <option value="fifteen"> >= $150,000 </option>
+                        <option value="twenty"> >= $200,000 </option>
+                        <option value="twenty-five"> >= $250,000</option>
+                    </select>
+
+                    <div class="circle-legend-container">
+                        <p class="circle-legend-description">
+                            Male / All Genders:
+                        </p>
+                        <ul class="legend">
+                            <li class="legend-btn" data-gender-ratio="VeryLow"><span class="legend-symbol"></span>Very
+                                Low
+                            </li>
+                            <li class="legend-btn" data-gender-ratio="Low"><span class="legend-symbol"></span> Low</li>
+                            <li class="legend-btn" data-gender-ratio="High"><span class="legend-symbol"></span> High
+                            </li>
+                            <li class="legend-btn" data-gender-ratio="VeryHigh"><span class="legend-symbol"></span> Very
+                                High
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="packed-circles"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/treemap.js"></script>
+    <script src="js/usa-map.js"></script>
+    <script src="js/packed-circles.js"></script>
+    <script src="js/beeswarm.js"></script>
+    <script src="js/groupedbarchart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
