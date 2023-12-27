@@ -1,6 +1,6 @@
 # An Introduction into Software Engineering Incomes
 
-![Thumbnail](Thumbnail.png)
+![Final project](result.png)
 
 #### Citations
 
