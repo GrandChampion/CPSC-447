@@ -20,12 +20,12 @@
 
 ### [P1](Programming%20assignment/p1/)
 
-![P1](Programming%20assignment/p1/result.png)
+![P1](Programming%20assignment/p1/result.gif)
 
 ### [P2](Programming%20assignment/p2/)
 
-![P2](Programming%20assignment/p2/result.png)
+![P2](Programming%20assignment/p2/result.gif)
 
 ### [Final Project](Programming%20assignment/Final%20Project/)
 
-![Final Project](Programming%20assignment/Final%20Project/result.png)
+![Final Project](Programming%20assignment/Final%20Project/result.gif)
