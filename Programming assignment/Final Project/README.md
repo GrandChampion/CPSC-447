@@ -1,6 +1,6 @@
 # An Investigation of SWE Incomes in Visualization
 
-![Final project](result.png)
+![Final project](Programming%20assignment/Final%20Project/result.gif)
 
 #### Citations
 
