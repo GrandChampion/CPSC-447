@@ -4,6 +4,9 @@
 
 <img src="Programming%20assignment/Final%20Project/result.gif">
 
+<img src="https://www.topgear.com/sites/default/files/news-listicle/image/2023/01/1.jpeg">
+
+
 #### Citations
 
 - USA-states json taken from [here](https://gist.github.com/michellechandra/0b2ce4923dc9b5809922#file-us-states-json)
