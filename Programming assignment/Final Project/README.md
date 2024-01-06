@@ -1,4 +1,4 @@
-# An Introduction into Software Engineering Incomes
+# An Investigation of SWE Incomes in Visualization
 
 ![Final project](result.png)
 
