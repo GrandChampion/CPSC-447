@@ -28,4 +28,4 @@
 
 ### [Final Project](Programming%20assignment/Final%20Project/)
 
-![Final Project](Programming%20assignment/Final%20Project/result.gif)
+![Final Project](./result.gif)
