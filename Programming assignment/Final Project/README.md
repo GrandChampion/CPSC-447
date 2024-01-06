@@ -2,6 +2,8 @@
 
 ![Final project](Programming%20assignment/Final%20Project/result.gif)
 
+<img src="Programming%20assignment/Final%20Project/result.gif">
+
 #### Citations
 
 - USA-states json taken from [here](https://gist.github.com/michellechandra/0b2ce4923dc9b5809922#file-us-states-json)
