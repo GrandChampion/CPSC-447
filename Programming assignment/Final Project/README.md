@@ -4,7 +4,7 @@
 
 <img src="Programming%20assignment/Final%20Project/result.gif">
 
-<img src="https://www.topgear.com/sites/default/files/news-listicle/image/2023/01/1.jpeg">
+<img src="https://github.com/YeonguChoe/CPSC-447/blob/main/Programming%20assignment/Final%20Project/result.gif">
 
 
 #### Citations
