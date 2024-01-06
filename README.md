@@ -30,4 +30,4 @@
 
 ![Final Project](./image/result.gif)
 
-<img src="Programming%20assignment/Final Project/result.gif">
+<img src="Programming assignment/Final Project/result.gif">
