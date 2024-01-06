@@ -1,11 +1,6 @@
 # An Investigation of SWE Incomes in Visualization
 
-![Final project](Programming%20assignment/Final%20Project/result.gif)
-
-<img src="Programming%20assignment/Final%20Project/result.gif">
-
 <img src="https://github.com/YeonguChoe/CPSC-447/blob/main/Programming%20assignment/Final%20Project/result.gif">
-
 
 #### Citations
 
