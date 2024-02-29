@@ -11,7 +11,7 @@
 7. [Maps](note/Maps.md)
 8. [Aggregation](note/Aggregation.md)
 9. [Networks&Trees](note/Networks&Trees.md)
-10. [Rules of THumb](note/Rules%20of%20Thumb.md)
+10. [Rules of Thumb](note/Rules%20of%20Thumb.md)
 
 ## Programming Assignment
 ### [P0](Programming%20assignment/p0/)
